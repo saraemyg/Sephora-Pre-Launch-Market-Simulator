@@ -52,7 +52,7 @@ coverage.xml
 *.pkl
 *.pickle
 product_info.csv
-*.ipynb
+# *.ipynb  # Uncommented to track notebooks
 .gitattributes
 
 # Translations
