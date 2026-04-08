@@ -51,7 +51,7 @@ coverage.xml
 # Large files
 *.pkl
 *.pickle
-product_info.csv
+# product_info.csv  # Allow this specific CSV file
 # *.ipynb  # Uncommented to track notebooks
 .gitattributes
 
@@ -129,7 +129,7 @@ dmypy.json
 *.pth
 
 # Large data files
-*.csv
+# *.csv  # Allow specific CSV files
 *.xlsx
 *.xls
 *.parquet
@@ -167,9 +167,9 @@ temp/
 *.pdf
 
 # PNG/Image outputs from notebooks
-*.png
+# *.png  # Allow specific PNG files
 *.jpg
 *.jpeg
 
-*.pkl
-product_info.csv
+# *.pkl  # Allow specific PKL files if needed
+# product_info.csv  # Allow this specific CSV file
